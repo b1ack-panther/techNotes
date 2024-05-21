@@ -5,25 +5,25 @@ const Public = () => {
 		<section className="public">
 			<header>
 				<h1>
-					Welcome to <span className="nowrap">Dan D. Repairs!</span>
+					Welcome to <span className="nowrap">our repair shop!</span>
 				</h1>
 			</header>
 			<main className="public__main">
 				<p>
-					Located in Beautiful Downtown Foo City, Dan D. Repairs provides a
+					Located in Beautiful Varanasi City, Our shop provides a
 					trained staff ready to meet your tech repair needs.
 				</p>
 				<address className="public__addr">
-					Dan D. Repairs
+					K.K. Repairs
 					<br />
 					555 Foo Drive
 					<br />
-					Foo City, CA 12345
+					Varanasi City, CA 12345
 					<br />
 					<a href="tel:+15555555555">(555) 555-5555</a>
 				</address>
 				<br />
-				<p>Owner: Dan Davidson</p>
+				<p>Owner: K.K. Singh</p>
 			</main>
 			<footer>
 				<Link to="/login">Employee Login</Link>
