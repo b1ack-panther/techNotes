@@ -24,6 +24,9 @@ const Public = () => {
 				</address>
 				<br />
 				<p>Owner: K.K. Singh</p>
+			<div style={{"margin-top": "300px"}}>
+			{`Admin account: username: saurabh password: 1234
+				Employee account: username: john password: 1234`}</div>
 			</main>
 			<footer>
 				<Link to="/login">Employee Login</Link>
