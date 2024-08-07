@@ -225,7 +225,7 @@ const Login = () => {
 				</form>
 			</main>
 			<footer>
-				<Link to="/">Back to Home</Link>
+				<Link className="loginLink" to="/">Back to Home</Link>
 			</footer>
 		</section>
 	);

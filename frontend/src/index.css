@@ -288,6 +288,10 @@ tr {
 	border-radius: 15px;
 }
 
+.form__submit-button{
+	background: linear-gradient(to right, rgb(66, 103, 116) 30%, rgb(96, 133, 147) 70%,  white);
+}
+
 .form__input--text {
 	min-height: 150px;
 }
@@ -372,4 +376,10 @@ tr {
 	.form__action-buttons {
 		position: static;
 	}
+}
+
+.loginLink{
+	background-color: rgb(66, 103, 116);
+	border-radius: 5px;
+	padding: 5px;
 }

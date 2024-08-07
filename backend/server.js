@@ -13,6 +13,8 @@ const app = express();
 const PORT = process.env.PORT || 3500;
 
 connectDB();
+app.use(logger);
+
 
 app.use((req, res, next) => {
 	// res.setHeader("Access-Control-Allow-Origin", "http://example.com"); // Replace with your client's origin
@@ -24,7 +26,6 @@ app.use((req, res, next) => {
 	// res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
 	next();
 });
-app.use(logger);
 
 app.use(cors(corsOptions));
 

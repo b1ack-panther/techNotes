@@ -23,13 +23,14 @@ const Public = () => {
 					<a href="tel:+15555555555">(555) 555-5555</a>
 				</address>
 				<br />
-				<p>Owner: K.K. Singh</p>
+				
+				<Link className="loginLink" to="/login">Employee Login</Link>
 			<div style={{"margin-top": "300px"}}>
 			{`Admin account: username: saurabh password: 1234
 				Employee account: username: john password: 1234`}</div>
 			</main>
 			<footer>
-				<Link to="/login">Employee Login</Link>
+				<Link className="loginLink" to="/login">Employee Login</Link>
 			</footer>
 		</section>
 	);

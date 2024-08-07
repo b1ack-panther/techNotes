@@ -109,7 +109,7 @@ const jwt = require("jsonwebtoken");
 // @access Public
 const login = async (req, res) => {
 	const { userName, password } = req.body;
-
+	
 	if (!userName || !password) {
 		return res.status(400).json({ message: "All fields are required" });
 	}
