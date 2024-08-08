@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 const usePersist = () => {
   const item = localStorage.getItem("persist");
 	const [persist, setPersist] = useState(
-		JSON.parse(item ?? false)
+		JSON.parse(item ?? true)
   );
   
 	useEffect(() => {
