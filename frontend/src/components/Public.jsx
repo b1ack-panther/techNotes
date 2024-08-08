@@ -25,9 +25,10 @@ const Public = () => {
 				<br />
 				
 				<Link className="loginLink" to="/login">Employee Login</Link>
-			<div style={{"margin-top": "300px"}}>
-			{`Admin account: username: saurabh password: 1234
-				Employee account: username: john password: 1234`}</div>
+			<div style={{"margin-top": "300px", border: "2px solid darkred", padding: "5px", maxWidth: "max-content"}}>
+					Admin account: username: saurabh password: 1234
+<br />
+				Employee account: username: john password: 1234</div>
 			</main>
 			<footer>
 				<Link className="loginLink" to="/login">Employee Login</Link>
