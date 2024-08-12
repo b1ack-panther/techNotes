@@ -1,4 +1,3 @@
-import React from "react";
 import { selectNoteById, useGetNotesQuery } from "./notesApiSlice";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
