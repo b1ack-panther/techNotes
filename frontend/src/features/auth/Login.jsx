@@ -176,7 +176,7 @@ const Login = () => {
 
 	const errClass = errMsg ? "errmsg" : "offscreen";
 
-	if (isLoading) return <p>Loading...</p>;
+	if (isLoading) return <p>Please Wait... First login may take around 50 seconds.</p>;
 
 	const content = (
 		<section className="public">
